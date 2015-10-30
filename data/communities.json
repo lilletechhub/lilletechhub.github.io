@@ -3,5 +3,17 @@
         "name": "Ch'ti JUG (Java User Group)",
         "shortDescription": "Le ChtiJUG organise des événements chaque mois, gratuit et ouvert à tous. On parle Java bien sûr mais pas que, avec des talks sur les pratiques, les technos branchées du moment, etc...",
         "tags" : ["Java"]
+    },
+    {
+        "key": "Raclette",
+        "name": "Raclette Freelance",
+        "shortDescription": "Notre ambition est de rassembler des Freelances qui partagent les mêmes convictions autour de fromage fondu",
+        "tags" : ["Raclette","Freelance"]
+    },
+    {
+        "key": "SWLille",
+        "name": "Startup Weekend Lille",
+        "shortDescription": "Startup Weekend Lille a pour but de démocratiser l'entrepreneuriat. Nous proposons à tous de passer 54h dans la peau d'un entrepreneur. La communauté SWLille est composées d'entrepreneurs qui se soutiennent mutuellement.",
+        "tags" : ["Entrepreurs","Startup", "techstars"]
     }
 ]
