@@ -8,7 +8,7 @@ define([
 ], function(angular) {
     'use strict';
 
-    var app = angular.module("lyontechhub", ["ngRoute", "mgcrea.ngStrap.navbar", "angulartics.google.analytics", "lyontechhub.communities"]);
+    var app = angular.module("lilletechhub", ["ngRoute", "mgcrea.ngStrap.navbar", "angulartics.google.analytics", "lilletechhub.communities"]);
 
     app.config(["$locationProvider", function($locationProvider) {
         $locationProvider.hashPrefix('!');

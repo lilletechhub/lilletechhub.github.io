@@ -1,13 +1,13 @@
 {
-  "name": "LyonTechHub",
+  "name": "LilleTechHub",
   "version": "0.1.0",
-  "description": "Lyon Tech Hub Web Site",
+  "description": "Lille Tech Hub Web Site",
   "authors": [
-    "Lyon Tech Hub community"
+    "Lille Tech Hub community"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/lyontechhub/lyontechhub.github.io"
+    "url": "http://github.com/lilletechhub/lilletechhub.github.io"
   },
   "license": "MIT",
   "ignore": [

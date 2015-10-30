@@ -1,4 +1,4 @@
-Lyon Tech Hub Web Site
+Lille Tech Hub Web Site
 ======================
 
 This is the public web site that aggregates communication of group's communities.
@@ -11,9 +11,9 @@ It consists of the following sections :
 
 Join Us
 -------
-Send us a mail to lyonytechhub@googlegroups.com or even request to join the group, it is totally free.
+Send us a mail to lilletechhub@googlegroups.com or even request to join the group, it is totally free.
 
-If you have a tech/IT community in Lyon area, request to join Lyon Tech Hub to promote your exciting activity to the community, it is simple as :
+If you have a tech/IT community in Lille area, request to join Lille Tech Hub to promote your exciting activity to the community, it is simple as :
 
 * Request access to Google Calendar
 * And submit a pull request to update web site (logo & JSON data).
@@ -26,13 +26,13 @@ Make sure you do a pull request on master branch including the following :
 
 Contribute
 ----------
-Contact us on the Google Group, make pull-request, this web site must be managed by Lyon communities themselves.
+Contact us on the Google Group, make pull-request, this web site must be managed by Lille communities themselves.
 
 Developers
 ----------
 This web site is done with plain HTML/CSS3/Javascript and AngularJS.
 
-The website is hosted through GitHub pages at lyontechhub.github.io as Organization pages (cf. https://help.github.com/articles/user-organization-and-project-pages).
+The website is hosted through GitHub pages at lilletechhub.github.io as Organization pages (cf. https://help.github.com/articles/user-organization-and-project-pages).
 Note that GitHub uses master branch to deploy, that's why we have 'dev' branch as the default one, which contains source code, that is compiled through Gulp and pushed to master for deployment (see below).
 
 ### Source code
@@ -80,16 +80,16 @@ It use Google AJAX crawling specification to make AngularJS application search e
 
 We use a heroku application for the prerender service, which crawl the web site with PhantomJS to return full old HTML. Prerender service is at http://mighty-waters-2486.herokuapp.com/.
 It has been deployed with following instructions : https://github.com/prerender/prerender#deploying-your-own-on-heroku.
-It has whitelist enabled with Lyon Tech Hub url only (config var : heroku config to list & heroku config:set to set).
+It has whitelist enabled with Lille Tech Hub url only (config var : heroku config to list & heroku config:set to set).
 
 ### Deployment
 
 We use heroku to host the web site. To deploy, just push dev branch to master branch of heroku git repository :
 
 ```
-heroku git:remote -a lyontechhub #only the first time to add the heroku remote
+heroku git:remote -a lilletechhub #only the first time to add the heroku remote
 git push heroku dev:master 
 ```
 
-Continuous deployment is setup through http://github.com/lyontechhub/heroku-deployer (forked and slightly modified to allow deployment of other branches than dev). heroku-deployer is deployed on http://lyontechhubdeployer.herokuapp.com/. 
+Continuous deployment is setup through http://github.com/lilletechhub/heroku-deployer (forked and slightly modified to allow deployment of other branches than dev). heroku-deployer is deployed on http://lilletechhubdeployer.herokuapp.com/. 
 It uses GitHub webhooks to call heroku-deployer that pulls GitHub and pushes to heroku.

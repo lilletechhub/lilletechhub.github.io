@@ -3,7 +3,7 @@ define(['angular',
     'angularSanitize'], function(angular) {
     'use strict';
 
-    var app = angular.module("lyontechhub.communities", ["ngRoute", 'ngSanitize']);
+    var app = angular.module("lilletechhub.communities", ["ngRoute", 'ngSanitize']);
 
     app.config(["$routeProvider", function($routeProvider) {
         $routeProvider

@@ -36,7 +36,7 @@ require([
         'use strict';
 
         require(['domReady'], function(document) {
-            angular.bootstrap(document, ['lyontechhub']);
+            angular.bootstrap(document, ['lilletechhub']);
         });
     }
 );
