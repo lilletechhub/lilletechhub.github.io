@@ -1,0 +1,7 @@
+{
+    "patternsGoogleCalendar": ["GDG"],
+    "socialLinks": [
+        { "icon": "link", "tooltip": "Web site", "url": "http://www.meetup.com/GDG-Lille/"},
+        { "icon": "twitter", "tooltip": "Twitter", "url": "https://twitter.com/GDGLille"}
+    ]
+}
