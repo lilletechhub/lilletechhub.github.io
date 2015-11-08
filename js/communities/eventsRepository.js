@@ -35,10 +35,11 @@ define(['./module'], function(app) {
             var deferred = $q.defer();
             var asyncGoogleApiCalls = [];
             for(var index = 0; index < patterns.length; index++) {
-                asyncGoogleApiCalls.push($http.get("https://www.googleapis.com/calendar/v3/calendars/ck2ruq6cqfch3t4gshbd6vdnd4@group.calendar.google.com/events?key=AIzaSyAHKI9T7fhK68b2eggUCHlu9eOwsdFUrhg&singleEvents=true"
+                var url = "https://www.googleapis.com/calendar/v3/calendars/startupdigest.com_nbsk0f97uhck487jcnup069jks@group.calendar.google.com/events?key=AIzaSyCdR6Uj2NsoCRPovdbF52ascnqkxR34QV8&singleEvents=true"
                     + "&q=" + patterns[index]
                     + "&timeMin=" + minDate.toISOString()
-                    + "&timeMax=" + maxDate.toISOString()));
+                    + "&timeMax=" + maxDate.toISOString();
+                asyncGoogleApiCalls.push($http.get(url));
             }
 
             $q.all(asyncGoogleApiCalls).then(function(result){
@@ -47,6 +48,8 @@ define(['./module'], function(app) {
                     events = events.concat(result[index].data.items.map(mapEvents));
                 }
                 deferred.resolve(removeDuplicates(events));
+            }, function (error) {
+                console.log(error);
             });
 
             return deferred.promise;
