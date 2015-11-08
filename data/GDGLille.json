@@ -1,0 +1,7 @@
+{
+    "patternsGoogleCalendar": ["JUG", "ChtiJUG"],
+    "socialLinks": [
+        { "icon": "link", "tooltip": "Web site", "url": "http://chtijug.org"},
+        { "icon": "twitter", "tooltip": "Twitter", "url": "https://twitter.com/chtijug"}
+    ]
+}
