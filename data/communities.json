@@ -1,8 +1,14 @@
 [   {
         "key": "ChtiJUG",
-        "name": "Ch'ti JUG (Java User Group)",
-        "shortDescription": "Le ChtiJUG organise des événements chaque mois, gratuit et ouvert à tous. On parle Java bien sûr mais pas que, avec des talks sur les pratiques, les technos branchées du moment, etc...",
+        "name": "Ch’ti JUG (Java User Group)",
+        "shortDescription": "Le ChtiJUG organise des événements chaque mois, gratuit et ouvert à tous. On parle Java bien sûr mais pas que, avec des talks sur les pratiques, les technos branchées du moment, etc…",
         "tags" : ["Java"]
+    },
+    {
+        "key": "ChtiJS",
+        "name": "La Communauté des développeurs JavaScript du Nord",
+        "shortDescription": "Réunion informelle de personnes passionnées de JavaScript. Notre but ? favoriser les échanges et la découverte dans une atmosphère ouverte et détendue.",
+        "tags" : ["JavaScript"]
     },
     {
         "key": "Raclette",
@@ -11,9 +17,15 @@
         "tags" : ["Raclette","Freelance"]
     },
     {
+        "key": "rubynord",
+        "name": "ruby-nord",
+        "shortDescription": "Communauté de développeurs Ruby et Ruby on Rails au Nord de Paris. Échanges sur les technologies web (ruby, gems, frameworks…), bonnes pratiques (méthodes agiles, conventions, tests…) & tout ce qui touche de près ou de loin à Ruby.",
+        "tags" : ["Ruby","Ruby on Rails"]
+    },
+    {
         "key": "SWLille",
         "name": "Startup Weekend Lille",
-        "shortDescription": "Startup Weekend Lille a pour but de démocratiser l'entrepreneuriat. Nous proposons à tous de passer 54h dans la peau d'un entrepreneur. La communauté SWLille est composée d'entrepreneurs qui se soutiennent mutuellement.",
+        "shortDescription": "Startup Weekend Lille a pour but de démocratiser l’entrepreneuriat. Nous proposons à tous de passer 54h dans la peau d’un entrepreneur. La communauté SWLille est composée d’entrepreneurs qui se soutiennent mutuellement.",
         "tags" : ["Entrepreurs","Startup", "techstars"]
     }
 ]
