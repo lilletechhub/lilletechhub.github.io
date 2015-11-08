@@ -11,6 +11,12 @@
         "tags" : ["JavaScript"]
     },
     {
+      "key": "GDGLille",
+      "name": "GDG Lille",
+      "shortDescription": "Le Google Developer Group de Lille organise des événements autour des technologies Google, que ça soit du Web, du Cloud, l'écosystème est vaste !",
+      "tags" : ["Google", "Cloud", "design", "web"]
+    },
+    {
         "key": "Raclette",
         "name": "Raclette Freelance",
         "shortDescription": "Notre ambition est de rassembler des Freelances qui partagent les mêmes convictions autour de fromage fondu",
@@ -27,11 +33,5 @@
         "name": "Startup Weekend Lille",
         "shortDescription": "Startup Weekend Lille a pour but de démocratiser l’entrepreneuriat. Nous proposons à tous de passer 54h dans la peau d’un entrepreneur. La communauté SWLille est composée d’entrepreneurs qui se soutiennent mutuellement.",
         "tags" : ["Entrepreurs","Startup", "techstars"]
-    },
-    {
-      "key": "GDGLille",
-      "name": "GDG Lille",
-      "shortDescription": "Le Google Developer Group de Lille organise des événements autour des technologies Google, que ça soit du Web, du Cloud, l'écosystème est vaste !",
-      "tags" : ["Google", "Cloud", "design", "web"]
     }
 ]
