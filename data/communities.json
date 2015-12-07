@@ -17,6 +17,12 @@
       "tags" : ["Google", "Cloud", "design", "web"]
     },
     {
+        "key": "GraphDbLille",
+        "name": "Graph Database Lille",
+        "shortDescription": "Cher Graphista, Ce groupe à pour objectif de réunir les personnes intéressées par les bases de données NoSql de graphe. Tous les utilisateurs sont les bienvenus, depuis le développeur jusqu'à l'utilisateur final en passant par le simple curieux. A bientôt dans le graphe !",
+        "tags": [ "Neo4j", "NoSQL", "Base de données", "BigData" ]
+    },
+    {
         "key": "Raclette",
         "name": "Raclette Freelance",
         "shortDescription": "Notre ambition est de rassembler des Freelances qui partagent les mêmes convictions autour de fromage fondu",
