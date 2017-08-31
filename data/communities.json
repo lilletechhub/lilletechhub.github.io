@@ -33,5 +33,11 @@
         "name": "Startup Weekend Lille",
         "shortDescription": "Startup Weekend Lille a pour but de démocratiser l’entrepreneuriat. Nous proposons à tous de passer 54h dans la peau d’un entrepreneur. La communauté SWLille est composée d’entrepreneurs qui se soutiennent mutuellement.",
         "tags" : ["Entrepreurs","Startup", "techstars"]
+    },
+    {
+        "key": "LilleFP",
+        "name": "Lille FP",
+        "shortDescription": "Partager autours de la programmation fonctionnelle entre développeurs novices ou expérimentés.",
+        "tags" : ["Programmation fonctionnelle","Langages de programmation", "ocaml"]
     }
 ]
