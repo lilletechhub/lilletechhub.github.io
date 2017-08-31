@@ -37,7 +37,7 @@
     {
         "key": "LilleFP",
         "name": "Lille FP",
-        "shortDescription": "Partager autours de la programmation fonctionnelle entre développeurs novices ou expérimentés.",
+        "shortDescription": "Partager autour de la programmation fonctionnelle entre développeurs novices ou expérimentés.",
         "tags" : ["Programmation fonctionnelle","Langages de programmation", "ocaml"]
     }
 ]
